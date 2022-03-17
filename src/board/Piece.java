@@ -26,9 +26,6 @@ public abstract class Piece {
 	
 	public boolean isThereAnyPossibleMove() {
 		boolean[][] mat = possibleMoves();
-		//if (mat == null) {
-		//	return false;
-		//}
 		for (int i=0; i<mat.length; i++) {
 			for (int j=0; j<mat.length; j++) {
 				if (mat[i][j]) {
